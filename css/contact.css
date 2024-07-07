@@ -10,10 +10,23 @@
 
 
     border: 1px solid #ddd;
-    padding: 16px;
+
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-    gap: 50px;
+    gap: 120px;
+}
+
+.contact-info{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.contact-info li {
+    width: 200px;
+    
 }
 
 .avatar-img {
@@ -29,16 +42,18 @@
     align-items: center;
     width: 100%;
     height: 100vh;
+
+    background-color: #ddd;
 }
 
 
 .contacts {
 
-    width: 120px;
-    height: 80px;
-
     padding :8px;
     color: #ddd;
+
+
+    
 }
 
 .contact-info li {
@@ -46,20 +61,31 @@
     padding :5px;
     
     background: rgb(28, 30, 32);
-    
-    margin-bottom: 5px;
-
-
 }
 
 .avatar,
 .contact-info {
 
-    margin: auto;
-    padding: 40px;
+    padding: 8px;
+    margin: 0 auto;
     list-style-type: none;
+
+
 }
 
 .contact-info .contacts{
     text-decoration: none;
+}
+
+
+/* Animation begins  */
+
+.contact-info li:hover{
+    font-size: 22px;
+    background-color: #EEE;
+    color: #012;
+}
+
+.contact-info li:hover .contacts {
+    color: #012;
 }
