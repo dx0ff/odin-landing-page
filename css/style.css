@@ -135,7 +135,10 @@ header {
 }
 
 
-
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
