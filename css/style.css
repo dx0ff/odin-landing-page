@@ -96,6 +96,8 @@ header a {
     margin-top: 20px;
     width: 40%;
     padding: 20px;
+
+    height: 90px;
 }
 
 
@@ -272,6 +274,11 @@ header:hover li:hover{
     .welcome-section .ready {
         width: 60%;
     }
+
+    .welcome-section .welcome-button {
+    
+        height: 90px;
+    }
 }
 /* 
 @media (max-width:300px) {
@@ -302,9 +309,9 @@ header:hover li:hover{
     .welcome-section .welcome-button {
         padding: 20px;
 
-        width: 70%;
+        width: 100%;
+        font-weight: 700;
 
-        border: 1px solid red;
     }
     
 
