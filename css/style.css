@@ -81,17 +81,19 @@ header {
     margin-top: 20px;
 }
 
-
+/* selects the sign up button in the .welcome class    :class tag  */
 .welcome-section .welcome-button {
     margin-top: 20px;
 }
 
 
+/* selects the images in the image-quotes-container  */
 .image-quotes-container .image {
     height: 100px;
     width: auto;
 }
 
+/* selects the section that contains all the image quotes  */
 .image-quotes-container {
     display: flex;
 
@@ -103,7 +105,7 @@ header {
     gap: 30px;
 }
 
-
+/* selects the individual image group (image + quotes) */
 .image-quotes-container .image-box {
     height: 300px;
     width: 300px;
@@ -115,7 +117,7 @@ header {
     align-items: center;
 }
 
-
+/* selects the section that contains the nevergiveupistheway quote  */
 .nevergiveup {
     background-color: #E5E7EB;
     height: 300px;
@@ -128,11 +130,13 @@ header {
 
 }
 
+/* selects the paragraph that contains the nevergiveupistheway quote  */
 .nevergiveup p {
     width: 60%;
 }
 
 
+/* selects the footer-container  */
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -146,7 +150,7 @@ header {
 }
 
 
-
+/* selects the call-to-action area  */
 .footer-container .call-to-action {
 
     height: 120px;
@@ -159,10 +163,10 @@ header {
     justify-content: center;
 
     background-color: #3B82F6;
-
-
+    border-radius: 10px;
 }
 
+/* selects the copyright div  */
 .copyright {
     background-color: #1F2937;
     color: #FFFFFF;
@@ -175,6 +179,7 @@ header {
     align-items: center;
 }
 
+/* selects the copyright 'c' symbol  */
 .copyright small {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 60%;
@@ -205,6 +210,10 @@ header {
     .nav-list li {
         display: inline-block;
         margin-right: 20px;
+    }
+
+    .welcome-section .ready {
+        width: 60%;
     }
 }
 
