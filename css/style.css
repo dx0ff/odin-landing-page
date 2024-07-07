@@ -60,10 +60,7 @@ header {
 
     width: 85%;
 
-    border: 1px solid red;
-
     margin: 0px auto;
-
 }
 
 
@@ -85,7 +82,7 @@ header {
 }
 
 
-.welcome-section .welcome-button{
+.welcome-section .welcome-button {
     margin-top: 20px;
 }
 
@@ -107,7 +104,7 @@ header {
 }
 
 
-.image-quotes-container .image-box{
+.image-quotes-container .image-box {
     height: 300px;
     width: 300px;
 
@@ -121,14 +118,14 @@ header {
 
 .nevergiveup {
     background-color: #E5E7EB;
-    height: 350px;
+    height: 300px;
 
     display: flex;
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .nevergiveup p {
@@ -139,22 +136,52 @@ header {
 .footer-container {
     display: flex;
     flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 350px;
+
+    color: #FFFFFF;
 }
 
-.footer-container small {
-    border: 1px solid black;
-    border-radius: 60%;
-}
+
 
 .footer-container .call-to-action {
-    height: 250px;
+
+    height: 120px;
+    width: 70%;
 
     display: flex;
-    
+
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    background-color: #3B82F6;
+
+
 }
+
+.copyright {
+    background-color: #1F2937;
+    color: #FFFFFF;
+
+    width: 100%;
+    height: 130px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright small {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 60%;
+
+    margin: 10px;
+}
+
 
 
 
@@ -185,9 +212,9 @@ header {
 
 
 @media (max-width:800px) {
-    .main-container .welcome-section{
+    .main-container .welcome-section {
         flex-direction: column;
-    
+
     }
 
     .nevergiveup p {
@@ -199,20 +226,19 @@ header {
         display: none;
     }
 
-    .main-container .welcome{
+    .main-container .welcome {
         height: 600px;
     }
 
-    img{
+    img {
         height: 100px;
         width: auto;
     }
 
-    .image-quotes-container{
+    .image-quotes-container {
         flex-direction: column;
         height: 650px;
 
         border: 1px solid red;
     }
 }
-
