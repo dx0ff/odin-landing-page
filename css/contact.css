@@ -31,6 +31,35 @@
     height: 100vh;
 }
 
-.card-container li {
-    list-style-type: square;
+
+.contacts {
+
+    width: 120px;
+    height: 80px;
+
+    padding :8px;
+    color: #ddd;
+}
+
+.contact-info li {
+
+    padding :5px;
+    
+    background: rgb(28, 30, 32);
+    
+    margin-bottom: 5px;
+
+
+}
+
+.avatar,
+.contact-info {
+
+    margin: auto;
+    padding: 40px;
+    list-style-type: none;
+}
+
+.contact-info .contacts{
+    text-decoration: none;
 }
