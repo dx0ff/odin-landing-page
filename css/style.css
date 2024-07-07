@@ -255,6 +255,14 @@ header:hover li:hover{
 
 
 
+
+@media (max-width:250px) {
+    .welcome-section .welcome-button{
+        display: none;
+    }
+}
+
+
 @media (min-width:801px) {
     .nav-list li {
         display: inline-block;
@@ -346,3 +354,4 @@ header:hover li:hover{
         height: 250px;
     }
 }
+
