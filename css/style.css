@@ -97,14 +97,25 @@ header {
 .image-quotes-container {
     display: flex;
 
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     height: 500px;
+
+    gap: 30px;
 }
 
 
+.image-quotes-container .image-box{
+    height: 300px;
+    width: 300px;
 
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -152,5 +163,12 @@ header {
     img{
         height: 100px;
         width: auto;
+    }
+
+    .image-quotes-container{
+        flex-direction: column;
+        height: 650px;
+
+        border: 1px solid red;
     }
 }
