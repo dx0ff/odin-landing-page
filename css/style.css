@@ -10,6 +10,8 @@ header {
     width: 100%;
     background-color: #1F2937;
     color: #F9FAFB;
+
+    height: 150px;
 }
 
 
@@ -20,7 +22,7 @@ header {
     align-items: center;
 
     width: 85%;
-    height: 100px;
+    height: 140px;
 
 }
 
@@ -199,16 +201,16 @@ header {
 
 
 /* Animation starts here  */
-header:hover{
+header:hover {
     transform: translateY(-6px);
-    box-shadow: 2px 9px 19px #0c0e11 ;
+    box-shadow: 2px 9px 19px #0c0e11;
 }
 
-header:hover .logo{
+header:hover .logo {
     font-size: 25px;
 }
 
-header:hover .nav-list{
+header:hover .nav-list {
     font-size: 19px;
 }
 
@@ -234,8 +236,24 @@ header:hover .nav-list{
     }
 }
 
+@media (max-width:300px) {
+    .welcome-section .welcome-button {
+        display: none;
+    }
+}
 
+@media (max-width: 320px) {
+    .welcome-section .welcome-button {
 
+        height: 10px;
+        width: auto;
+    }
+
+    .nevergiveup {
+        height: 400px;
+
+    }
+}
 
 @media (max-width:800px) {
     .main-container .welcome-section {
@@ -246,6 +264,11 @@ header:hover .nav-list{
     .nevergiveup p {
         width: 80%;
         height: auto;
+    }
+
+    .nevergiveup {
+        height: 400px;
+
     }
 
     .welcome-img {
@@ -265,14 +288,14 @@ header:hover .nav-list{
         flex-direction: column;
         height: 650px;
     }
-    
 
-    .welcome .preamble{
+
+    .welcome .preamble {
         display: flex;
         flex-direction: column;
     }
 
-    .preamble .welcome-button{
+    .preamble .welcome-button {
         width: 40%;
         padding: 20px;
     }
