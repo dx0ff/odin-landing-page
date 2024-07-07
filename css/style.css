@@ -299,4 +299,9 @@ header:hover .nav-list {
         width: 40%;
         padding: 20px;
     }
+
+    .nav-bar .nav-list li{
+        margin-top: 5px;
+        padding: 5px;
+    }
 }
