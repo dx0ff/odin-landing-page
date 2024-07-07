@@ -118,6 +118,11 @@ header {
 }
 
 
+.nevergiveup {
+    background-color: #E5E7EB;
+    height: 350px;
+}
+
 
 
 
@@ -156,8 +161,12 @@ header {
     
     }
 
+    .welcome-img {
+        display: none;
+    }
+
     .main-container .welcome{
-        height: 900px;
+        height: 600px;
     }
 
     img{
