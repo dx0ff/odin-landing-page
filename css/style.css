@@ -89,7 +89,14 @@ header {
 }
 
 
+.image-quotes-container .image {
+    height: 100px;
+    width: auto;
+}
 
+.image-quotes-container {
+    display: flex;
+}
 
 
 
