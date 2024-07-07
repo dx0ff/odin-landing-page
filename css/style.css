@@ -204,6 +204,13 @@ header:hover{
     box-shadow: 2px 9px 19px #0c0e11 ;
 }
 
+header:hover .logo{
+    font-size: 25px;
+}
+
+header:hover .nav-list{
+    font-size: 19px;
+}
 
 
 
@@ -259,5 +266,16 @@ header:hover{
         height: 650px;
 
         border: 1px solid red;
+    }
+    
+
+    .welcome .preamble{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .preamble .welcome-button{
+        width: 40%;
+        padding: 20px;
     }
 }
