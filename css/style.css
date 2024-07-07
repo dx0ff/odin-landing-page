@@ -12,6 +12,7 @@ header {
     color: #F9FAFB;
 }
 
+
 /* selects the .navbar  :class tag */
 .nav-bar {
     display: flex;
@@ -20,6 +21,14 @@ header {
     width: 85%;
     height: 100px;
 
+}
+
+.nav-bar .nav-list {
+    list-style-type: none;
+}
+
+.nav-list li {
+    display: inline-block;
 }
 
 /* selects the .main-container :class tag */
@@ -71,7 +80,9 @@ header {
 
 
 
-
+.welcome-section .ready {
+    margin-top: 20px;
+}
 
 
 
