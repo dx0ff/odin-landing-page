@@ -238,7 +238,9 @@ header:hover li:hover{
     font-size: 25px;
 }
 
-
+.button:hover{
+    font-size: large;
+}
 
 
 
