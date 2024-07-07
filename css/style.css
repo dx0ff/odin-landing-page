@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+
+    width: 85%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
