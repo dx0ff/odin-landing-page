@@ -91,6 +91,8 @@ header {
 /* selects the sign up button in the .welcome class    :class tag  */
 .welcome-section .welcome-button {
     margin-top: 20px;
+    width: 40%;
+    padding: 20px;
 }
 
 
@@ -161,16 +163,33 @@ header {
 .footer-container .call-to-action {
 
     height: 120px;
-    width: 70%;
+    width: 80%;
 
     display: flex;
 
-    flex-direction: column;
+
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
     background-color: #3B82F6;
+    border-radius: 8px;
+}
+
+.call-to-action p{
+    color: #A7C2EF;
+}
+
+.call-to-action .button-container{
+    width: 40%;
+}
+
+.call-to-action .call-to-action-button {
+    width: 100%;
+    padding: 10px;
+
+    background: #3B82F6;
     border-radius: 10px;
+    border: 1px solid #EEE;
 }
 
 /* selects the copyright div  */
@@ -303,5 +322,16 @@ header:hover .nav-list {
     .nav-bar .nav-list li{
         margin-top: 5px;
         padding: 5px;
+
+        border: 1px solid #E5E7EB;
+    }
+
+    .footer-container .call-to-action{
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .footer-container{
+        height: 250px;
     }
 }
