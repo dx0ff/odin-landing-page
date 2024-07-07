@@ -121,6 +121,17 @@ header {
 .nevergiveup {
     background-color: #E5E7EB;
     height: 350px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nevergiveup p {
+    width: 60%;
 }
 
 
@@ -161,6 +172,11 @@ header {
     
     }
 
+    .nevergiveup p {
+        width: 80%;
+        height: auto;
+    }
+
     .welcome-img {
         display: none;
     }
@@ -181,3 +197,4 @@ header {
         border: 1px solid red;
     }
 }
+
