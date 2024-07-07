@@ -53,7 +53,11 @@ header {
 
     background-color: #1F2937;
     color: #F9FAFB;
+
+    padding: 8px;
 }
+
+
 
 .welcome-section {
     display: flex;
@@ -61,6 +65,7 @@ header {
     width: 85%;
 
     margin: 0px auto;
+    /* border: 2px solid yellow; */
 }
 
 
@@ -193,6 +198,11 @@ header {
 
 
 
+/* Animation starts here  */
+header:hover{
+    transform: translateY(-6px);
+    box-shadow: 2px 9px 19px #0c0e11 ;
+}
 
 
 
