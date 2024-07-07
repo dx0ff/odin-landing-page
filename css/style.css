@@ -17,6 +17,7 @@ header {
 .nav-bar {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
     width: 85%;
     height: 100px;
@@ -27,9 +28,7 @@ header {
     list-style-type: none;
 }
 
-.nav-list li {
-    display: inline-block;
-}
+
 
 /* selects the .main-container :class tag */
 .main-container {
@@ -80,8 +79,49 @@ header {
 
 
 
+/* selects the paragrapgh inside the .welcome-section class :class tag  */
 .welcome-section .ready {
     margin-top: 20px;
+}
+
+.welcome-section .welcome-button{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:801px) {
+    .nav-list li {
+        display: inline-block;
+        margin-right: 20px;
+    }
 }
 
 
