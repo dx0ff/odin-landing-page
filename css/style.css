@@ -299,6 +299,15 @@ header:hover li:hover{
 
     }
 
+    .welcome-section .welcome-button {
+        padding: 20px;
+
+        width: 70%;
+
+        border: 1px solid red;
+    }
+    
+
     .nevergiveup p {
         width: 80%;
         height: auto;
@@ -334,7 +343,7 @@ header:hover li:hover{
     }
 
     .preamble .welcome-button {
-        width: 40%;
+        width: 150px;
         padding: 20px;
     }
 
