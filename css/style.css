@@ -264,8 +264,6 @@ header:hover .nav-list{
     .image-quotes-container {
         flex-direction: column;
         height: 650px;
-
-        border: 1px solid red;
     }
     
 
