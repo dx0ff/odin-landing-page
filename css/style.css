@@ -14,7 +14,10 @@ header {
     height: 150px;
 }
 
-
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 /* selects the .navbar  :class tag */
 .nav-bar {
     display: flex;
@@ -221,7 +224,7 @@ header {
 
 /* Animation starts here  */
 header:hover {
-    transform: translateY(-6px);
+    transform: translateY(-4px);
     box-shadow: 2px 9px 19px #0c0e11;
 }
 
