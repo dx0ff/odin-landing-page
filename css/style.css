@@ -265,7 +265,7 @@ header:hover li:hover{
         width: 60%;
     }
 }
-
+/* 
 @media (max-width:300px) {
     .welcome-section .welcome-button {
         display: none;
@@ -283,7 +283,7 @@ header:hover li:hover{
         height: 400px;
 
     }
-}
+} */
 
 @media (max-width:800px) {
     .main-container .welcome-section {
