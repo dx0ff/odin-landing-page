@@ -140,6 +140,10 @@ header {
     flex-direction: column;
 }
 
+.footer-container small {
+    border: 1px solid black;
+    border-radius: 60%;
+}
 
 
 
