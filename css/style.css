@@ -234,6 +234,10 @@ header:hover .nav-list {
 }
 
 
+header:hover li:hover{
+    font-size: 25px;
+}
+
 
 
 
