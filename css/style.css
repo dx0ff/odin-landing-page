@@ -3,6 +3,7 @@
     margin: 0px;
 
     box-sizing: border-box;
+    transition: all ease-in-out 250ms;
 }
 
 /* selects the header :element tag */
